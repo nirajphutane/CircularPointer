@@ -9,3 +9,22 @@
 Input: BZA
 
 Output: By Circular Pointer 'BZA' will take total '4' second(s).
+
+
+# Logic:
+
+A ---> A : 0s (Forword), 0s (Reverse)
+
+A ---> B : 1s (Forword), 25s (Reverse)
+
+B ---> E : 3s (Forword), 23s (Reverse)
+
+A ---> Z : 25s (Forword), 1s (Reverse)
+
+Z ---> A : 1s (Forword), 25s (Reverse)
+
+Z ---> B : 2s (Forword), 24s (Reverse)
+
+Y ---> C : 4s (Forword), 22s (Reverse)
+
+Take shortest time.
