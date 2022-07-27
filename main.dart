@@ -1,3 +1,4 @@
+
 void main(){
   String word = 'BZA';
   int total = getTotal(word);
@@ -14,7 +15,7 @@ int getTotal(String word){
   return total;
 }
 
-List alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+List<String> alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 int getCount(String start, String end){
   // print('Index: $start: ${alphabets.indexOf(start)} $end: ${alphabets.indexOf(end)}');
 
